@@ -187,8 +187,6 @@ Results: The best architecture tested so far is:
 - 1 bidirectional layer with a GRU cell, dropout rate of 0.5 followed batch normalization layer
 - 1 Time Distributed layer, fully-connected dense layer that produces a softmax output with a learning rate of 0.03
 
-## Suggestions to Make your Project Stand Out!
-
 
 ## Special Thanks
 
