@@ -158,36 +158,34 @@ Your project will be reviewed by a Udacity reviewer against the CNN project [rub
 
 ### Project Submission criteria
 
-
-
 #### Files Submitted
 The submission includes a `sample_models.py` file with a completed modules containing the correct architecture. The project architectures includes:
 
-Model 0: Simple RNN
+#### Model 0: Simple RNN
 The submission trained the model for at least 20 epochs, and none of the loss values in `model_0.pickle` are undefined.  The trained weights for the model specified in `simple_rnn_model` are stored in `model_0.h5`.
 
-#### STEP 2: Model 1: RNN + TimeDistributed Dense
+#### Model 1: RNN + TimeDistributed Dense
 The submission trained the model for at least 20 epochs, and none of the loss values in `model_1.pickle` are undefined.  The trained weights for the model specified in `rnn_model` are stored in `model_1.h5`.   	
 
-#### STEP 2: Model 2: CNN + RNN + TimeDistributed Dense
+#### Model 2: CNN + RNN + TimeDistributed Dense
 
 The submission trained the model for at least 20 epochs, and none of the loss values in `model_2.pickle` are undefined.  The trained weights for the model specified in `cnn_rnn_model` are stored in `model_2.h5`.   
 
-#### STEP 2: Model 3: Deeper RNN + TimeDistributed Dense
+#### Model 3: Deeper RNN + TimeDistributed Dense
 
 The submission trained the model for at least 20 epochs, and none of the loss values in `model_3.pickle` are undefined.  The trained weights for the model specified in `deep_rnn_model` are stored in `model_3.h5`. 
 
-#### STEP 2: Model 4: Bidirectional RNN + TimeDistributed Dense
+#### Model 4: Bidirectional RNN + TimeDistributed Dense
 
 The submission trained the model for at least 20 epochs, and none of the loss values in `model_4.pickle` are undefined.  The trained weights for the model specified in `bidirectional_rnn_model` are stored in `model_4.h5`. 
 
-#### STEP 2: Final Model
+#### Final Model
 The submission trained the model for at least 20 epochs, with the following architecture:   	|
 Results: The best architecture tested so far is:
 
-1 convolutional layer with batch normalization layer
-1 bidirectional layer with a GRU cell, dropout rate of 0.5 followed batch normalization layer
-1 Time Distributed layer, fully-connected dense layer that produces a softmax output with a learning rate of 0.03
+- 1 convolutional layer with batch normalization layer
+- 1 bidirectional layer with a GRU cell, dropout rate of 0.5 followed batch normalization layer
+- 1 Time Distributed layer, fully-connected dense layer that produces a softmax output with a learning rate of 0.03
 
 ## Suggestions to Make your Project Stand Out!
 
