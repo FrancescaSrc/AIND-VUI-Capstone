@@ -151,42 +151,36 @@ jupyter notebook vui_notebook.ipynb
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
 
-### Evaluation
+### My final models
 
-Your project will be reviewed by a Udacity reviewer against the CNN project [rubric](#rubric).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
-
-
-### Project Submission criteria
-
-#### Files Submitted
-The submission includes a `sample_models.py` file with a completed modules containing the correct architecture. The project architectures includes:
+Your project reviewed by a Udacity reviewer followed the Udacity specifications to pass.
+The project includes a `sample_models.py` file with a completed modules containing the correct architecture. The project architectures impemented are:
 
 #### Model 0: Simple RNN
-The submission trained the model for at least 20 epochs, and none of the loss values in `model_0.pickle` are undefined.  The trained weights for the model specified in `simple_rnn_model` are stored in `model_0.h5`.
+The model is trained for at least 20 epochs, the loss values are saved in `model_0.pickle` and the trained weights for the model specified in `simple_rnn_model` are stored in `model_0.h5`.
 
 #### Model 1: RNN + TimeDistributed Dense
-The submission trained the model for at least 20 epochs, and none of the loss values in `model_1.pickle` are undefined.  The trained weights for the model specified in `rnn_model` are stored in `model_1.h5`.   	
+The model is trained for at least 20 epochs, the loss values are saved in `model_1.pickle` and the trained weights for the model specified in `rnn_model` are stored in `model_1.h5`.   	
 
 #### Model 2: CNN + RNN + TimeDistributed Dense
 
-The submission trained the model for at least 20 epochs, and none of the loss values in `model_2.pickle` are undefined.  The trained weights for the model specified in `cnn_rnn_model` are stored in `model_2.h5`.   
+The model is trained for at least 20 epochs, the loss values are saved in `model_2.pickle` and the trained weights for the model specified in `cnn_rnn_model` are stored in `model_2.h5`.   
 
 #### Model 3: Deeper RNN + TimeDistributed Dense
 
-The submission trained the model for at least 20 epochs, and none of the loss values in `model_3.pickle` are undefined.  The trained weights for the model specified in `deep_rnn_model` are stored in `model_3.h5`. 
+The model is trained for at least 20 epochs, the loss values are saved in `model_3.pickle` and the trained weights for the model specified in `deep_rnn_model` are stored in `model_3.h5`. 
 
 #### Model 4: Bidirectional RNN + TimeDistributed Dense
 
-The submission trained the model for at least 20 epochs, and none of the loss values in `model_4.pickle` are undefined.  The trained weights for the model specified in `bidirectional_rnn_model` are stored in `model_4.h5`. 
+The model is trained for at least 20 epochs, the loss values are saved in `model_4.pickle` and the trained weights for the model specified in `bidirectional_rnn_model` are stored in `model_4.h5`. 
 
 #### Final Model
-The submission trained the model for at least 20 epochs, with the following architecture:   	|
+The final model is trained for at least 20 epochs, the loss values are saved in , with the following architecture:   	|
 Results: The best architecture tested so far is:
 
 - 1 convolutional layer with batch normalization layer
 - 1 bidirectional layer with a GRU cell, dropout rate of 0.5 followed batch normalization layer
 - 1 Time Distributed layer, fully-connected dense layer that produces a softmax output with a learning rate of 0.03
-
 
 ## Special Thanks
 
