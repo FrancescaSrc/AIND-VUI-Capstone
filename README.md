@@ -5,19 +5,18 @@
 
 ## Project Overview
 
-In this notebook, you will build a deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline!  
+In this notebook, I have built a deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline.
 
 ![ASR Pipeline][image1]
 
-We begin by investigating the [LibriSpeech dataset](http://www.openslr.org/12/) that will be used to train and evaluate your models. Your algorithm will first convert any raw audio to feature representations that are commonly used for ASR. You will then move on to building neural networks that can map these audio features to transcribed text. After learning about the basic types of layers that are often used for deep learning-based approaches to ASR, you will engage in your own investigations by creating and testing your own state-of-the-art models. Throughout the notebook, we provide recommended research papers for additional reading and links to GitHub repositories with interesting implementations.
 
-## Project Instructions
+## Project 
 
 ### Amazon Web Services
 
 This project requires GPU acceleration to run efficiently. 
 
-1. Follow the Cloud Computing Setup instructions lesson to create an EC2 instance. (The lesson includes all the required package and library installation instructions.)
+1. Follow the Cloud Computing Setup instructions lesson to create an EC2 instance.
 
 2. Obtain the appropriate subsets of the LibriSpeech dataset, and convert all flac files to wav format.
 ```
@@ -151,8 +150,7 @@ jupyter notebook vui_notebook.ipynb
 
 ### My final models
 
-Your project reviewed by a Udacity reviewer followed the Udacity specifications to pass.
-The project includes a `sample_models.py` file with a completed modules containing the correct architecture. The project architectures impemented are:
+The final project architectures implemented are:
 
 #### Model 0: Simple RNN
 The model is trained for at least 20 epochs, the loss values are saved in `model_0.pickle` and the trained weights for the model specified in `simple_rnn_model` are stored in `model_0.h5`.
@@ -173,8 +171,7 @@ The model is trained for at least 20 epochs, the loss values are saved in `model
 The model is trained for at least 20 epochs, the loss values are saved in `model_4.pickle` and the trained weights for the model specified in `bidirectional_rnn_model` are stored in `model_4.h5`. 
 
 #### Final Model
-The final model is trained for at least 20 epochs, the loss values are saved in , with the following architecture:   	|
-Results: The best architecture tested so far is:
+The final model has the following architecture:   	|
 
 - 1 convolutional layer with batch normalization layer
 - 1 bidirectional layer with a GRU cell, dropout rate of 0.5 followed batch normalization layer
@@ -182,4 +179,4 @@ Results: The best architecture tested so far is:
 
 ## Special Thanks
 
-We have borrowed the `create_desc_json.py` and `flac_to_wav.sh` files from the [ba-dls-deepspeech](https://github.com/baidu-research/ba-dls-deepspeech) repository, along with some functions used to generate spectrograms.
+The `create_desc_json.py` and `flac_to_wav.sh` files are borrowed from the [ba-dls-deepspeech](https://github.com/baidu-research/ba-dls-deepspeech) repository, along with some functions used to generate spectrograms.
